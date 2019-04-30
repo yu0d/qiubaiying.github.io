@@ -24,12 +24,12 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
     var gitalk = new Gitalk({
     distractionFreeMode: true,
     // gitalk的主要参数
-		clientID: `8a19ee0394cd022682e9`,
-		clientSecret: `54cb49e991003105952a6e5fe0be3bfc49ef6f07`,
-		repo: `yu0d.github.io`,
-		owner: 'Github yu0d',
-		admin: ['Github yu0d'],
-		id: 'yu0d.github.io.kai',
+	clientID: `8a19ee0394cd022682e9`,
+	clientSecret: `54cb49e991003105952a6e5fe0be3bfc49ef6f07`,
+	repo: `yu0d.github.io`,
+	owner: 'Github yu0d',
+	admin: ['Github yu0d'],
+	id: 'yu0d.github.io.kai',
     
     });
     gitalk.render('gitalk-container');
