@@ -15,26 +15,26 @@ sidebar-about-description: "Goals determine what you going to be!"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
-<!-- Gitalk 评论 start  -->
+#<!-- Gitalk 评论 start  -->
 
 <!-- Link Gitalk 的支持文件  -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
-<div id="gitalk-container"></div>     <script type="text/javascript">
-    var gitalk = new Gitalk({
-    distractionFreeMode: true,
-    // gitalk的主要参数
-clientID: `8a19ee0394cd022682e9`,
-clientSecret: `54cb49e991003105952a6e5fe0be3bfc49ef6f07`,
-repo: `yu0d.github.io`,
-owner: 'Github yu0d',
-admin: ['Github yu0d'],
-id: 'yu0d.github.io.kai',
-    
-    });
-    gitalk.render('gitalk-container');
-</script> 
-<!-- Gitalk end -->
+#<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+#<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+#<div id="gitalk-container"></div>     <script type="text/javascript">
+#   var gitalk = new Gitalk({
+#    distractionFreeMode: true,
+#    // gitalk的主要参数
+#clientID: `8a19ee0394cd022682e9`,
+#clientSecret: `54cb49e991003105952a6e5fe0be3bfc49ef6f07`,
+#repo: `yu0d.github.io`,
+#owner: 'Github yu0d',
+#admin: ['Github yu0d'],
+#id: 'yu0d.github.io.kai',
+#    
+#    });
+#   gitalk.render('gitalk-container');
+#</script> 
+#<!-- Gitalk end -->
 
 
 
@@ -82,21 +82,21 @@ kramdown:
 disqus_username: yu0d
 
 # Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: yu0d.github.io    #仓库名称
-  owner: yu0d    #github用户名
-  admin: yu0d
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+#gitalk:
+#  enable: true    #是否开启Gitalk评论
+#  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
+#  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+#  repo: yu0d.github.io    #仓库名称
+#  owner: yu0d    #github用户名
+#  admin: yu0d
+#  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+#ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
 #ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
