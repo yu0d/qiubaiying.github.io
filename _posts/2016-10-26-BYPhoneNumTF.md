@@ -7,8 +7,7 @@ author:     yu
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - 
-    - 
+    -
 ---
 
 upload_labs
@@ -17,7 +16,6 @@ upload_labs
 
 
 ```
-
 if (isset($_POST['submit'])) {
     if (file_exists(UPLOAD_PATH)) {
 
@@ -63,9 +61,12 @@ if (isset($_POST['submit'])) {
 ```
 
 
-##代码的重点在于:
-$file_name = reset($file) . '.' . $file[count($file) - 1];
-注解：以" . "为分隔符，截取第一个字段，加 . 加后缀。
+###代码的重点在于:
+`$file_name = reset($file) . '.' . $file[count($file) - 1];`
+
+注解：以" . "为分隔符，截取第一个字段，加 . 加后缀
+
+
 
 
 
