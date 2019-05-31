@@ -1,10 +1,10 @@
 # Site settings
 title:  
-SEOTitle: yu0d | BY Blog
+SEOTitle: yu0d
 header-img: img/post-bg-desk.jpg
 email: yu@gmail.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, yu0d, qiubaiying, yu0d, iOS, Apple, iPhone"
+keyword: "yu0d, yu0d, web, "
 url: "http://yu0d.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 #github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
@@ -131,7 +131,7 @@ friends: [
 #        href: "https://developer.apple.com/"
 #    }, -->
     {
-        title: "简书·BY",
+        title: "简书·yu0d",
         href: "http://www.jianshu.com/u/b2a6f1754316"
     },
     {
